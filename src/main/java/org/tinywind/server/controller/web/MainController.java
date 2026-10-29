@@ -18,7 +18,7 @@ import org.tinywind.server.interceptor.LoginRequired;
 import org.tinywind.server.model.form.LoginForm;
 import org.tinywind.server.repository.UserRepository;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
