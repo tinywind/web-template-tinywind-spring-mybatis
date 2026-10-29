@@ -47,7 +47,7 @@ public class UserApiController extends ApiBaseController {
     }
 
     @Operation(summary = "로그아웃")
-    @GetMapping("logout")
+    @PostMapping("logout")
     public JsonResult logout() {
         g.invalidateSession();
         return JsonResult.create();
