@@ -19,7 +19,7 @@
         <jdbc.driverClass>com.mysql.cj.jdbc.Driver</jdbc.driverClass>
         <jdbc.maven.groupId>com.mysql</jdbc.maven.groupId>
         <jdbc.maven.artifactId>mysql-connector-j</jdbc.maven.artifactId>
-        <jdbc.maven.version>8.4.0</jdbc.maven.version>
+        <jdbc.maven.version>26.10.0</jdbc.maven.version>
         <jdbc.dialect>mysql</jdbc.dialect>
         <jdbc.port>3306</jdbc.port>
         <jdbc.url>jdbc:${jdbc.dialect}://${jdbc.host}:${jdbc.port}/${jdbc.service}?useUnicode=yes&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;autoReconnectForPools=true&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=false</jdbc.url>
